@@ -1,0 +1,136 @@
+{
+  "id": "ld-search-for-lyra-01-ash-awakening-pf1",
+  "title": "Search for Lyra 01: The Ash Awakening — PF1",
+  "description": "A PF1 gothic-horror one-shot and the first episode of Search for Lyra, with native NPC Actors, clue Items, scaling instructions, journals, handouts, tables, and a manor Scene.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Lisa's Dungeon",
+      "url": "https://github.com/lisasdungeon"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system",
+        "compatibility": {
+          "minimum": "11.11",
+          "maximum": "11.11"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "ld-sfl01-adventure",
+      "label": "The Ash Awakening - GM Adventure",
+      "path": "packs/ld-sfl01-adventure",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-npc-templates",
+      "label": "The Ash Awakening - NPC Templates",
+      "path": "packs/ld-sfl01-npc-templates",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-item-guides",
+      "label": "The Ash Awakening - Item Guides",
+      "path": "packs/ld-sfl01-item-guides",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-handouts",
+      "label": "The Ash Awakening - Player Handouts",
+      "path": "packs/ld-sfl01-handouts",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-roll-tables",
+      "label": "The Ash Awakening - Roll Tables",
+      "path": "packs/ld-sfl01-roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-scenes",
+      "label": "The Ash Awakening - Scenes",
+      "path": "packs/ld-sfl01-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-pf1-actors",
+      "label": "The Ash Awakening - PF1 Actors",
+      "path": "packs/ld-sfl01-pf1-actors",
+      "type": "Actor",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-pf1-items",
+      "label": "The Ash Awakening - PF1 Items",
+      "path": "packs/ld-sfl01-pf1-items",
+      "type": "Item",
+      "system": "pf1",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Search for Lyra 01 - The Ash Awakening",
+      "sorting": "a",
+      "color": "#6f1724",
+      "packs": [
+        "ld-sfl01-adventure",
+        "ld-sfl01-npc-templates",
+        "ld-sfl01-item-guides",
+        "ld-sfl01-handouts",
+        "ld-sfl01-roll-tables",
+        "ld-sfl01-scenes",
+        "ld-sfl01-pf1-actors",
+        "ld-sfl01-pf1-items"
+      ],
+      "folders": []
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "url": "https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening",
+  "manifest": "https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening-pf1.json",
+  "download": "https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening-pf1-v0.1.0-beta.1.zip"
+}

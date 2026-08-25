@@ -1,0 +1,99 @@
+{
+  "id": "ld-search-for-lyra-01-ash-awakening",
+  "title": "Search for Lyra 01: The Ash Awakening",
+  "description": "A system-neutral gothic-horror one-shot and the first episode of Search for Lyra. The heroes awaken without their memories inside a sealed vampire manor and must identify the intruder who took Lyra.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Lisa's Dungeon",
+      "url": "https://github.com/lisasdungeon"
+    }
+  ],
+  "compatibility": {
+    "minimum": "14"
+  },
+  "packs": [
+    {
+      "name": "ld-sfl01-adventure",
+      "label": "The Ash Awakening - GM Adventure",
+      "path": "packs/ld-sfl01-adventure",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-npc-templates",
+      "label": "The Ash Awakening - NPC Templates",
+      "path": "packs/ld-sfl01-npc-templates",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-items",
+      "label": "The Ash Awakening - Item Templates",
+      "path": "packs/ld-sfl01-items",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-handouts",
+      "label": "The Ash Awakening - Player Handouts",
+      "path": "packs/ld-sfl01-handouts",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-roll-tables",
+      "label": "The Ash Awakening - Roll Tables",
+      "path": "packs/ld-sfl01-roll-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "ld-sfl01-scenes",
+      "label": "The Ash Awakening - Scenes",
+      "path": "packs/ld-sfl01-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Search for Lyra 01 - The Ash Awakening",
+      "sorting": "a",
+      "color": "#6f1724",
+      "packs": [
+        "ld-sfl01-adventure",
+        "ld-sfl01-npc-templates",
+        "ld-sfl01-items",
+        "ld-sfl01-handouts",
+        "ld-sfl01-roll-tables",
+        "ld-sfl01-scenes"
+      ],
+      "folders": []
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "url": "https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening",
+  "manifest": "https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening.json",
+  "download": "https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening-v0.1.0-beta.1.zip"
+}
