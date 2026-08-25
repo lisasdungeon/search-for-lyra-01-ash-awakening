@@ -17,6 +17,13 @@ Download the ZIP for your chosen edition from the GitHub release page. Extract i
 
 Do not install more than one edition in the same world unless you deliberately want separate copies of the adventure.
 
+The release also provides manifest URLs for Foundry's Install Module dialog:
+
+- System neutral: https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening.json
+- D&D 5e: https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening-dnd5e.json
+- PF1: https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening-pf1.json
+- WFRP4e: https://github.com/lisasdungeon/search-for-lyra-01-ash-awakening/releases/download/v0.1.0-beta.1/ld-search-for-lyra-01-ash-awakening-wfrp4e.json
+
 ## Release status
 
 Version 0.1.0-beta.1 is a public prerelease. Automated source, schema, coverage, parity, packaging, and archive-integrity gates have passed. Clean-world runtime verification and Odinn's sign-off remain open, so this is not represented as a final production release.
